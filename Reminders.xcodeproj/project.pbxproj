@@ -54,6 +54,8 @@
 		8F0DB2132799C462009437BE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				8F0DB2322799C514009437BE /* Model */,
+				8F0DB2332799C517009437BE /* Views */,
 				8F0DB2142799C462009437BE /* RemindersApp.swift */,
 				8F0DB2152799C462009437BE /* ContentView.swift */,
 				8F0DB2162799C470009437BE /* Assets.xcassets */,
@@ -76,6 +78,20 @@
 				8F0DB2232799C471009437BE /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		8F0DB2322799C514009437BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F0DB2332799C517009437BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
