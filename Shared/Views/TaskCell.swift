@@ -9,7 +9,18 @@ import SwiftUI
 
 struct TaskCell: View {
     
-    var task: Task
+    @ObservedObject var task: Task
+    
+    var taskColor: Color {
+        switch task.priority {
+        case .high:
+            return Color.red
+        case .medium:
+            return Color.blue
+        case.low:
+            return Color.primary
+        }
+    }
     
     var body: some View {
         HStack {
