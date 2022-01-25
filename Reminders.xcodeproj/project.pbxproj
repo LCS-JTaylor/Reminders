@@ -16,6 +16,8 @@
 		8F0DB2352799C5F5009437BE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0DB2342799C5F5009437BE /* Task.swift */; };
 		8F0DB2372799C6DC009437BE /* TaskPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0DB2362799C6DC009437BE /* TaskPriority.swift */; };
 		8F0DB2392799C7D8009437BE /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0DB2382799C7D8009437BE /* TaskStore.swift */; };
+		8F13008827A03C9C003C0217 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13008727A03C9C003C0217 /* TaskCell.swift */; };
+		8F13008927A03C9C003C0217 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13008727A03C9C003C0217 /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,7 @@
 		8F0DB2342799C5F5009437BE /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		8F0DB2362799C6DC009437BE /* TaskPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPriority.swift; sourceTree = "<group>"; };
 		8F0DB2382799C7D8009437BE /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		8F13008727A03C9C003C0217 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +63,9 @@
 		8F0DB2132799C462009437BE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				8F0DB2142799C462009437BE /* RemindersApp.swift */,
 				8F0DB2322799C514009437BE /* Model */,
 				8F0DB2332799C517009437BE /* Views */,
-				8F0DB2142799C462009437BE /* RemindersApp.swift */,
 				8F0DB2152799C462009437BE /* ContentView.swift */,
 				8F0DB2162799C470009437BE /* Assets.xcassets */,
 			);
@@ -99,6 +102,7 @@
 		8F0DB2332799C517009437BE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8F13008727A03C9C003C0217 /* TaskCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +209,7 @@
 				8F0DB2262799C471009437BE /* ContentView.swift in Sources */,
 				8F0DB2352799C5F5009437BE /* Task.swift in Sources */,
 				8F0DB2372799C6DC009437BE /* TaskPriority.swift in Sources */,
+				8F13008827A03C9C003C0217 /* TaskCell.swift in Sources */,
 				8F0DB2242799C471009437BE /* RemindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F0DB2272799C471009437BE /* ContentView.swift in Sources */,
+				8F13008927A03C9C003C0217 /* TaskCell.swift in Sources */,
 				8F0DB2252799C471009437BE /* RemindersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
